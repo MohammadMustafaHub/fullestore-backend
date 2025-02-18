@@ -18,7 +18,7 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () =>
 {
-    return "works";
+    return "more testing";
 });
 
 app.Run();
